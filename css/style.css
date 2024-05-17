@@ -41,3 +41,25 @@ img {
     margin-bottom: 10px;
 }
 
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main img.foto-pessoal {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;  /* Para tornar a imagem circular */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
