@@ -55,13 +55,13 @@ main h1 {
 }
 
 .foto-pessoal {
-    width: 300px;
-    height: 300px;
+    width: 325px; /* Reduzindo o tamanho da imagem */
+    height: 325px;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #0A293E;
+    border: 2px solid #00FFFF;
     margin-bottom: 20px;
-    float: left;
+    float: left; /* Alinhando à esquerda */
     margin-right: 20px;
 }
 
@@ -75,6 +75,9 @@ main h1 {
 .about-text {
     font-size: 1.2em;
     margin-top: 20px;
+    max-width: 600px; /* Limitando a largura do texto */
+    margin-left: auto; /* Alinhando à direita */
+    margin-right: auto;
 }
 
 /* Estilos para o formulário de contato */
