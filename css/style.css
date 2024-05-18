@@ -7,8 +7,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: url('../images/background.png') no-repeat center center fixed; /* Imagem de fundo */
+    background: url('../images/background.png') no-repeat center center fixed; /* Imagem do fundo */
     background-size: cover;
+    color: #fff;
 }
 
 header {
@@ -51,25 +52,35 @@ main h1 {
     margin-top: 20px;
     font-size: 2em;
     text-align: center;
+    color: #fff;
 }
 
 .foto-pessoal {
     width: 400px;
     height: 400px;
     object-fit: cover;
-    float: left;
     margin-right: 20px;
     border-radius: 50%;
     border: 2px solid #00FFFF;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
 }
 
 .about-text {
-    text-align: left;
+    flex: 1;
     font-size: 1.2em;
     margin-top: 20px;
+    color: #fff;
 }
 
-/* Formulário de contato */
+/* Estilos para o formulário de contato */
 .form-contato {
     max-width: 600px;
     margin: 0 auto;
@@ -80,6 +91,7 @@ main h1 {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
+    color: #fff;
 }
 
 .form-contato input,
@@ -122,6 +134,7 @@ main p {
     font-size: 1.2em;
     margin-top: 20px;
     text-align: center;
+    color: #fff;
 }
 
 /* Estilos para imagens circulares na página inicial */
