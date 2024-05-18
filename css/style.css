@@ -55,19 +55,19 @@ main h1 {
 }
 
 .foto-pessoal {
-    width: 325px; /* Reduzindo o tamanho da imagem */
-    height: 325px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #00FFFF;
     margin-bottom: 20px;
-    float: left; /* Alinhando à esquerda */
+    display: inline-block;
     margin-right: 20px;
 }
 
 .about-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: left;
 }
@@ -75,9 +75,7 @@ main h1 {
 .about-text {
     font-size: 1.2em;
     margin-top: 20px;
-    max-width: 600px; /* Limitando a largura do texto */
-    margin-left: auto; /* Alinhando à direita */
-    margin-right: auto;
+    max-width: 600px;
 }
 
 /* Estilos para o formulário de contato */
